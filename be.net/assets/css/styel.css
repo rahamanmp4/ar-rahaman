@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+
+
+}
+ul li{
+	list-style: none;
+
+}
+a{
+	text-decoration: none;
+}
+.con{
+	width: 98%;
+	margin: auto;
+}
+.hader{
+	background-color:#FFFFFF;
+}
+.hader:after{
+	display: block;
+	content: "";
+	clear: 	both;
+}
+.hader .logo{
+	float: left;
+	width: 16%;
+	margin-top: 5px;
+}
+
+.hader .mano{
+	float: left;
+	width: 20%;
+}
+.hader .mano ul{
+	margin-top: 13px;
+}
+.hader .mano ul li{
+	display: inline-block;
+	padding: 6px;
+}
+.hader .mano ul li a{
+	display: inline-block;
+	color: black;
+	transition: .3s;
+
+}
+.hader .mano ul li a:hover{
+	border-bottom: 4px solid black;
+}
+.hader .input{
+	float: left;
+	width: 20%;
+}
+.hader .input input{
+	margin-top: 15px;
+	width: 160%;
+	border-radius: 100px;
+	outline: none;
+	padding: 4px;
+}
+
+.hader .button{
+	float: left;
+	width: 15%;
+	margin-top: 17px;
+	margin-left: 180px;
+}
+.hader .button button{
+	padding: 5px 8px;
+	border-radius: 100px;
+	margin-left: 10px;
+}
+.t{
+	background-color: #0057FF;
+	color: white;
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+.m{
+	width: 60px;
+	display: inline-block;
+	background-color: lightgray;
+	color: black;
+	outline: none;
+	border: none;
+	padding: 5px 17px;
+}
+
+
+
+
+
+
+
+.baner{
+	text-align: center;
+}
+.baner h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: #191919;
+}
+.baner p{
+	width: 60%;
+	display: block;
+	margin: auto;
+	color: black;
+	
+}
+.baner button{
+	margin-top: 20px;
+	background-color: #0057FF;
+	color: white;
+	font-weight: bold;
+	padding: 5px 40px;
+	border-radius: 100px;
+	outline: none;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hader .logo1 img{
+	margin-top: 10px;
+}
+/*end*/
+.tem{
+	
+}
+.tem:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.temm{
+	float: left;
+	width: 12%;
+	text-align: center;
+}
+.temm h3{
+	margin-top: -40px;
+	font-size: 20px;
+	color: white;
+}
+.temm img{
+	width: 94%;
+	border-radius: 5px;
+	height: 60px;
+	transition: .5s;
+}
+.temm img:hover{
+	transform: scale(1.2);
+}
+/*end*/
+.hader2{
+	padding: 10px;
+
+	text-align: center;
+
+}
+.hader2 button{
+	padding: 8px 7px;
+	border-radius: 4px;
+	background-color: white;
+	color: black;
+	outline: none;
+	border: 1px solid white;
+	margin-left: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.hader2 button:hover{
+	color: #0057FF;
+}
+/*end*/
+.tam{
+	margin: auto;
+}
+.tam:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.temmm{
+	float: left;
+	width: 20%;
+	margin-top: 20px;
+}
+.temmm p{
+	display: inline-block;
+
+}
+.temmm p i:hover{
+	color: red;
+}
+.temmm img{
+	width: 200px;
+	height: 200px;
+	transition: .5s;
+
+}
+.temmm img:hover{
+	transform: scale(1.1);
+}
+.kaka .mn{
+	color: white;
+	margin-left: 10px;
+	margin-top: -35px;
+	padding-bottom: 10px;
+	opacity: 0;
+}
+.kaka .mn i:hover{
+	color: black;
+}
+.kaka .mn:hover{
+	opacity: 1;
+}
+/*end*/
+.foter{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.foter .bb h6{
+	display: inline-block;
+	margin: 40px auto;
+	font-weight: normal;
+	
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #191919;
+}
+.foter .bb a{
+	color: black;
+	text-decoration: underline;
+}
+.foter .bb button{
+	display: block;
+	text-align: center;
+	padding: 6px 80px;
+	border-radius: 100px;
+	outline: none;
+	border: none;
+	margin: 10px auto;
+	background-color: #0057FF;
+	font-weight: bold;
+	color: white;
+}
+.foter .bb i{
+	display: block;
+	margin-left: 300px;
+	margin-top: -38px;
+	font-size: 30px;
+
+	
+
+}
+/*end*/
+hr{
+	color: #696969;
+}
+.foter7  ul li{
+	display: inline-block;
+	padding: 7px;
+
+	font-size: 11px;
+}
+.foter7  ul li a{
+	font-weight: bold;
+
+	color: #696969;
+	display: inline-block;
+}
+.foter7  ul li a:hover{
+	color: blue;
+}

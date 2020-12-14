@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+a{
+	text-decoration: none;
+}
+ul{
+	margin-left: 0px;
+}
+.con{
+	width: 900px;
+	margin: 0px auto;
+}
+.facebook:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+.facebook .fl img{
+	transform: translate(-35px, 16px);
+	font-family: tahoma;
+	
+}
+.facebook .fl{
+	transform: translate(11px,20px);
+}
+.facebook .fl h2{
+	font-family: tahoma;
+	font-weight: normal;
+	width: 80%;
+
+}
+.facebook .fl{
+	float: left;
+	width: 65%;
+}
+.facebook .fr{
+	float: left;
+	width: 35%;
+}
+
+.facebook{
+	background-color: #F0F2F5;
+	padding: 80px 0px;
+}
+.fr .log {
+	padding: 20px;
+	background-color:  #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+
+
+}
+.fr .log input{
+	width: 100%;
+	margin: 15px auto;
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 5px;
+	border:  .7px solid #ccc;
+	outline-color: #1877f2;
+	cursor: pointer;
+
+
+	
+
+}
+.y{
+	display: table;
+	margin: auto;
+	 color: #1877f2;
+	
+
+}
+.y:hover{
+	text-decoration: underline;
+}
+
+.t{
+	background-color: #1877f2;
+	margin: 10px;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}
+hr{
+	margin-top: 10px;
+	border-top: 1;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0px;
+	color: white;
+
+}
+
+.o{
+	display: table;
+	margin: auto;
+	background-color:#00a400; 
+	padding: 10px;
+	margin-top: 14px;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+
+}
+.o:hover{
+	background-color: #36A420;
+}
+p{
+	
+	font-weight: normal;
+	margin-top:  14px;
+
+
+}
+.m{
+	color: black;
+	font-weight: bold;
+}
+/*end*/
+.fb-f{
+	background-color: #fff;
+
+
+}
+.fbt{
+	border-bottom: 1px solid #8a8d91;;
+	padding: 10px 0px;
+}
+
+.fbt ul li{
+	display: inline-block;
+	
+
+}
+.fbt ul li a{
+	color: #8a8d91;
+	font-size: 11px;
+	padding: 20px 5px;
+
+}
+.fbt ul li a:hover{
+	text-decoration: underline;
+}
+/*t-end*/
+.fbm ul li{
+	display: inline-block;
+
+}
+.fbm ul li a{
+	display: inline-block;
+	color: #8a8d91;
+	font-size: 12px;
+	padding:  5px; 
+}
+
+.fbm ul li a:hover{
+	text-decoration: underline;
+}
+/*fm-end*/
+.fbb p{
+	font-size: 14px;
+	padding: 4px 5px;
+	color: #8a8d91;
+
+}

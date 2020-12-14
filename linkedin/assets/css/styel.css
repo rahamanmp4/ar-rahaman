@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+	margin: 0px;
+	padding: 0;
+
+	font-family: 'Lato', sans-serif;
+
+}
+
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.hader{
+	background-color: #FFFFFF;
+}
+.hader:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.con{
+	width: 90%;
+	margin: auto;
+}
+.hader .logo img{
+	margin-top: 10px;
+}
+.hader .mano ul{
+	text-align: right;
+}
+.hader .mano ul li {
+	display: inline-block;
+	padding: 10px 15px;
+	margin-top: 7px;
+	transition: .7s;
+}
+.hader .mano ul li a{
+	display: inline-block;
+	color: gray;
+
+
+}
+.hader .mano ul li:hover{
+	display: inline-block;
+	color:  rgba(0, 0, 0, 0.9);
+	background-color: lightgray;
+}
+.hader .mano ul li:hover a{
+	display: inline-block;
+	color:  black;
+	
+}
+.hader .mano button {
+	padding: 5px 20px;
+	color: rgba(0, 0, 0, 0.9);
+	border-radius: 100px;
+	outline: none;
+	border: 1px solid  #3A85CF;;
+
+}
+.hader .mano button a{
+	font-size: 17px;
+	color: #3A85CF;
+
+}
+
+.hader .logo{
+	width: 40%;
+	float: left;
+
+}
+.baner .i img{
+	margin-top: 80px;
+}
+.hader .mano{
+	width: 60%;
+	float: left;
+}
+/*end*/
+.baner{
+	margin: 20px;
+}
+.baner:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+.baner .c{
+	width: 60%;
+	float: left;
+}
+.baner .i{
+	width: 40%;
+	float: left;
+}
+.baner .c h1{
+	margin-top: 120px;
+	font-size: 50px;
+	color: #2977c9;
+	font-weight: normal;
+}
+.baner .c input{
+	display: block;
+	width: 50%;
+	margin-top: 10px;
+	padding: 10px 20px;
+	
+}
+
+.baner .c a{
+	margin-top: 16px;
+	color: gray;
+	display: inline-block;
+}
+.a{
+	display: block;
+	margin-top: 20px;
+	padding: 15px 150px;
+	border-radius: 100px;
+	outline: none;
+	border: none;
+	color: white;
+	background-color: #1877f2;
+
+}
+.a:hover{
+	background-color: #004182;
+}
+/*end*/
+.baner2{
+	background-color: #FAF9F7;
+}
+.baner2:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.baner2 .h{
+	width: 50%;
+	float: left;
+}
+
+.baner2 .link{
+	width: 50%;
+	float: left;
+}
+.baner2 .link p{
+	color: gray;
+	font-size: 15px;
+}
+.baner2 .h h2{
+	margin-left: 50px;
+	margin-top: 30px;
+	Color: rgba(0, 0, 0, 0.9);
+	font-size: 48px;
+	font-weight: normal;
+}
+.baner2 .link ul li{
+	padding: 10px 15px;
+	margin-top: 10px;
+	border: 1px solid black;
+	border-radius: 100px;
+	outline: none;
+	border: none;
+	background-color: lightgray;
+
+	display: inline-block;
+}
+.baner2 .link ul li a{
+	color: gray;
+
+	display: inline-block;
+}
+.baner2 .link ul li:hover{
+	display: inline-block;
+	color:  rgba(0, 0, 0, 0.9);
+	background-color: lightgray;
+}
+.baner2 .link ul li:hover a{
+	display: inline-block;
+	color: black;
+	background-color: lightgray;
+}
+.u{
+	margin-top: 17px;
+	margin-left: 7px;
+}
+.u i{
+
+	margin-left: 6px;
+}
+/*end*/
+
+.baner3{
+	background-color: #F1ECE5;
+	width: 100%;
+	height: 150px;
+}
+.baner3:after{
+	display: block;
+	clear: both;
+	content: "";
+
+}
+.baner3 .all{
+	float: left;
+	width: 40%;
+
+}
+.baner3 .btn{
+	float: left;
+	width: 60%;
+
+}
+
+.baner3 .all{
+	margin-top: 50px;
+
+	
+}
+
+.baner3 .btn{
+	margin-top: 45px;
+	
+}
+.baner3 .all h2{
+color: #b24020;
+margin-left: 100px;
+
+}
+.baner3 .btn a{
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid black;
+	color: black;
+	border-radius: 100px;
+	margin-top: 20px;
+
+	
+	
+}
+/*end*/
+.baner4 {
+	padding: 10px;
+	height: 110vh;
+	width: 100%;
+	background-color: #FAF9F7;
+}
+.baner4:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.baner4 .content{
+	float: left;
+	width: 50%;
+	margin-top: 80px;
+
+
+}
+.baner4 .img{
+	float: left;
+	width: 50%;
+
+}
+.baner4 .content button{
+	padding: 0px 10px;
+	margin-bottom: 100px;
+	margin-left: 20px;
+}
+
+.baner4 .content h2{
+	Color:#2977c9;
+	font-size: 40px;
+	
+}
+.baner4 .img{
+
+	margin-top: 100px;
+}
+.baner4 .content p{
+	width: 90%;
+	font-size: 32px;
+	color: gray;
+	font-weight: normal;
+}
+.baner4 .content i{
+	font-size: 20px;
+	color: gray;
+	padding: 0px 10px;
+}
+/*end*/
+.baner5{
+	height: 130vh;
+}
+.baner5:after{
+	clear: both;
+	display: block;
+	content: "";
+}
+.baner5 .img2{
+	float: left;
+	width: 50%;
+	margin-top: 80px;
+}
+
+
+.baner5 .img3{
+	float: left;
+	width: 50%;
+
+}
+.baner5 .img2 h2{
+	font-size: 40px;
+	text-align: center;
+}
+
+.baner5 .img3 h2{
+	font-size: 40px;
+	text-align: center;
+}
+.baner5 .img2 button{
+	display: block;
+	margin: auto;
+	text-align: center;
+	border-radius: 100px;
+	margin-top: 20px;
+	padding: 10px 40px;
+	outline: none;
+	border: 1px solid black;
+	font-size: 24px;
+}
+.baner5 .img3 button{
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 20px;
+	padding: 10px 40px;
+	outline: none;
+	border: 1px solid black;
+
+}
+.baner5 .img2 button:hover{
+
+	background-color: lightgray;
+	color: black;
+}
+.baner5 .img3 button:hover{
+
+	background-color: lightgray;
+	color: black;
+}
+.baner5 .img3 i{
+	margin-left: 20px;
+	color: gray;
+}
+/*end*/
+.baner6:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.baner6 .vido{
+	float: left;
+	width: 50%;
+
+}
+.baner6 .my{
+	float: left;
+	width: 50%;
+	margin-top: 30px;
+
+}
+.baner6 .my h2{
+	font-size: 40px;
+	color: #b24020;
+}
+.baner6 .my p{
+	width: 80%;
+	padding: 10px;
+	font-size: 30px;
+}
+/*end*/
+.baner7{
+	width: 90%;
+	height: 50vh;
+	padding: 10px;
+	margin-top: 200px;
+}
+.baner7 h1{
+	font-size: 50px;
+	color: #2977c9;
+	margin-left: 60px;
+}
+.baner7 button{
+	padding: 10px 30px;
+	margin-top: 20px;
+	border-radius: 100px;
+	margin-left: 60px;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	background-color: #2977c9;
+	color: white; 
+}
+/*endf*/
+.imgb{
+
+	width: 100%;
+	background-image: url(../img/bgp2.png);
+	background-size: cover;
+	height: 70vh;
+
+}
+/*.end*/
+.foter{
+	width: 100%;
+	background-color: #FAF9F7;
+}
+.foter:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.foter .ra{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.foter .b{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.foter .b p{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.foter .b ul li{
+	display: block;
+}
+.foter .b ul li a{
+	display: block;
+	margin-top: 10px;
+	color: gray;
+	font-size: 14px;
+}
+.foter .b ul li a:hover{
+	color: #0a66c2;
+	text-decoration: underline;
+
+}
+.foter .c{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.foter .c p{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.foter .c ul li{
+	display: block;
+}
+.foter .c ul li a{
+	display: block;
+	margin-top: 10px;
+	color: gray;
+	font-size: 14px;
+}
+.foter .c ul li a:hover{
+	color: #0a66c2;
+	text-decoration: underline;
+
+}
+.foter .d{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.foter .d p{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.foter .d ul li{
+	display: block;
+}
+.foter .d ul li a{
+	display: block;
+	margin-top: 10px;
+	color: gray;
+	font-size: 14px;
+}
+.foter .d ul li a:hover{
+	color: #0a66c2;
+	text-decoration: underline;
+
+}
+
+.foter .e{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.foter .e p{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.foter .e ul li{
+	display: block;
+}
+.foter .e ul li a{
+	display: block;
+	margin-top: 10px;
+	color: gray;
+	font-size: 14px;
+}
+.foter .e ul li a:hover{
+	color: #0a66c2;
+	text-decoration: underline;
+
+}
+/*end*/
+
+.last .img5{
+	float: left;
+	width: 10%;
+}
+.last .img5 img{
+	margin-top: 10px;
+}
+.last .rahaman{
+	float: left;
+	width: 90%;
+}
+ .rahaman ul li{
+	display: inline-block;
+
+}
+ .rahaman ul li a{
+	display: inline-block;
+	padding: 5px;
+	font-size: 12px;
+	color: gray;
+}
+ .rahaman ul li:hover a{
+ 	color: #0a66c2;
+ 	text-decoration: underline;
+ }
+  .rahaman i{
+  	margin-left: 10px;
+  	margin-top: 10px;
+  }
